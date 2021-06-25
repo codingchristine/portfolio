@@ -10843,3 +10843,6 @@ textarea.form-control-lg {
   background-image:url(../images/projects_header.png);
   background-size:cover;
 }
+.project-hero h1 {
+  color:#fff;
+}
