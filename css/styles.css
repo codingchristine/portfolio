@@ -10840,7 +10840,7 @@ textarea.form-control-lg {
   grid-auto-rows: minmax(100px, auto);
 }
 .project-hero {
-  background-image:url(../images/projects_header.png);
+  background-image:url(../images/Projects_header.png);
   background-size:cover;
 }
 .project-hero h1 {
