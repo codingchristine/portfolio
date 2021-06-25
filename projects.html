@@ -18,23 +18,33 @@
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://codingchristine.github.io/portfolio/">Home</a></li>
                       <!--  <li class="nav-item"><a class="nav-link" href="#">About</a></li> -->
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="projects.html">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="https://codingchristine.github.io/portfolio/projects.html">Projects</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
         
-		
-        <div class="container px-4 px-lg-5">
+	    <!-- HERO -->
+	    <div class="container col-xxl-12 px-12 py-12 project-hero">
+		<div class="row align-items-center g-5 py-5">
+		    <div class="col-10 col-sm-8 col-lg-7"></div>
+		      <div class="col-lg-5 pt-4">
+			<h1 class="display-5 fw-bold lh-1 mb-3">MY PROJECTS</h1>
+		      </div>
+		</div>
+	    </div>
+	    <!-- /hero container -->
+	    
+        <div class="container px-4 px-lg-5 mt-5">
         <!-- Page Content-->
            <div class="row gx-4 gx-lg-5">
                 <div class="col-md-4 mb-5">
                     <div class="card h-100">
                         <div class="card-body">
                             <h2 class="card-title">Eyes</h2>
-                           <!-- <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>-->
+				<p class="card-text">In this assignment we used JavaScript to track the movement of the mouse on the screen and move the HTML elements on the page (styled with CSS) to follow the mouse.</p>
                         </div>
                         <div class="card-footer"><a class="btn btn-primary btn-sm" href="https://codingchristine.github.io/eyes/">More Info</a></div>
                     </div>
@@ -43,7 +53,7 @@
                     <div class="card h-100">
                         <div class="card-body">
                             <h2 class="card-title">Pacman</h2>
-                            <!--<p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod tenetur ex natus at dolorem enim! Nesciunt pariatur voluptatem sunt quam eaque, vel, non in id dolore voluptates quos eligendi labore.</p>-->
+				<p class="card-text">In this assignment we had to edit the code to make the Pacman continue to move across the browser until it reached the other edge, then it should reverse directions. Every time the element moves, the image source should change so it appears that the mouth of the Pacman is opening and closing.</p>
                         </div>
                         <div class="card-footer"><a class="btn btn-primary btn-sm" href="https://codingchristine.github.io/pacman/">More Info</a></div>
                     </div>
@@ -52,9 +62,11 @@
                     <div class="card h-100">
                         <div class="card-body">
                             <h2 class="card-title">Real-Time Bus Tracker</h2>
-      <!--                      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem magni quas ex numquam, maxime minus quam molestias corporis quod, ea minima accusamus.</p>-->
+                            <p class="card-text">A visual map representation of real-time data from the MBTA (Massachusetts Bay Transportation Authority) that tracks and shows Bus 1 on Bus Route 1 traveling between the MIT campus and Harvard.</p>
                         </div>
-                        <div class="card-footer"><a class="btn btn-primary btn-sm" href="#!">More Info</a></div>
+                        <div class="card-footer">
+				<button class="btn btn-primary btn-sm" onClick="alert()">More Info</button>
+			    </div>
                     </div>
                 </div>
             </div>
@@ -66,5 +78,11 @@
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+	<script>
+		function alert() {
+			//e.preventDefault();
+		  alert("Sorry! I'm still working on this, but it will be ready soon!");
+		}
+	</script>
     </body>
 </html>
