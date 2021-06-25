@@ -10842,6 +10842,10 @@ textarea.form-control-lg {
 .project-hero {
   background-image:url(../images/Projects_header.png);
   background-size:cover;
+  min-height:400px;
+}
+.project-hero .container {
+  max-width:100%;
 }
 .project-hero h1 {
   color:#fff;
